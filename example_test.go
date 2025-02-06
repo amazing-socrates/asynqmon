@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/amazing-socrates/asynqmon"
 	"github.com/hibiken/asynq"
-	"github.com/hibiken/asynqmon"
 )
 
 func ExampleHTTPHandler() {
